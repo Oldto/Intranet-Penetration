@@ -25,4 +25,4 @@ p=subprocess.call(["/bin/sh","-i"])
 
 ## 注意：有时候任意端口是不可取得，小技巧，我们监听一个其他服务端口，一般监听53端口，然后通过53端口进行反弹，测试可以成功。
 
-详细参考链接：https://www.jianshu.com/p/9456473a0a14
+详细参考链接：https://blog.csdn.net/weixin_44288604/article/details/111740527
