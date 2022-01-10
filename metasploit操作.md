@@ -33,7 +33,7 @@ service postgresql start
 
 - LHOST
 
-目标主机链接的IP地址。
+攻击机的IP地址。
 
 - RHOST
 
