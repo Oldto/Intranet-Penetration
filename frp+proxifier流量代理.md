@@ -2,12 +2,12 @@
 首先我们需要下载frp工具，此工具有Windows版本和Linux版本，且分为服务端和客户端两种。需要配合proxifier一起使用。服务端为frps,客户端为frpc，fprc需要发送到内网主机上。
 
 ## 内网
-`frpc.exe -f 6789 -p 6788 -t 公网服务器IP`
+`frpc.exe -f 9091 -p 9090 -t 公网服务器IP`
 
 ![image](https://user-images.githubusercontent.com/71583369/146941596-6388ac03-6305-4e91-bca0-0829b892e2b6.png)
 
 ## 公网
-`frps.exe -p 6789`监听本地端口
+`frps.exe -p 9090`监听本地端口
 
 
 ## proxifier
